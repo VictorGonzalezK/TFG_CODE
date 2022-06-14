@@ -5,7 +5,7 @@ import datetime
 
 #Set-Up the connection to the database
 def set_cursor():
-    cnx = mysql.connector.connect(user='root', password='mysqlvgk', host='127.0.0.1', database='urls')
+    cnx = mysql.connector.connect(user='*****', password='*****', host='127.0.0.1', database='urls')
     cursor = cnx.cursor()
     return cnx,cursor
 
